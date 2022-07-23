@@ -5,7 +5,7 @@ eclipse 로 프로젝트 진행 한 다음 git에 push후 pr을 날릴 경우 �
 
 confilct 난 파일의 양이 많을 경우 대부분 이런 현상이 발생한다.
 
-처음에는 eclipse 에서 일일히 비교하면서 수정해서 다시 pr을 보냈었는데 너무나 비효율적이여서 해결방법을 찾다가 개발지인의 추천으로 github desktop을 이용해 수정하는 방법을 알아 냈다.
+처음에는 eclipse 에서 일일히 비교하면서 수정해서 다시 pr을 보냈었는데 너무나 비효율적이여서 해결방법을 찾다가 개발자 친구의 추천으로 github desktop을 이용해 수정하는 방법을 알아 냈다.
 github desktop에 들어가 내가 pr 날릴 브랜치로 변경후 local에서 해당 브랜치-> master로 merge를 시도한다.
 merge버튼을 누르면 충돌 발생 시 충돌 파일을 알려주고, open in visual studio code를 눌러서 충돌 부분을 해결할 수 있다.
 
