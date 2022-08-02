@@ -10,10 +10,11 @@ eclipse 로 프로젝트 진행 한 다음 git에 push후 pr을 날릴 경우 �
 github desktop에 들어가 내가 pr 날릴 브랜치로 변경후 <b>local에서 해당 브랜치-> master로 merge를 시도</b>한다.
 merge버튼을 누르면 충돌 발생 시 충돌 파일을 알려주고, open in visual studio code를 눌러서 충돌 부분을 해결할 수 있다.
 
-vscode로 파일에 들어가면 충돌 부분을 확인할 수 있다.
+vscode로 파일에 들어가면 충돌된 부분을 시각적으로 확인할 수 있다.
 <b>master 부분은 초록색으로 감싸져 있을 거고 브랜치는 파란색</b>으로 감싸져있을 것이다.
 두 부분을 보고 지울 내용을 지우고 저장후 다시 github desktop으로 돌아오면 confilct 났었던 파일이 사라진다. 그리고 다시 <b>commit merge 후 상단에 push origin을 이용해 push</b>하면 머지가 잘 된다.
----
+
+-------------
 
 # 2. github folder rename 방법
 
