@@ -1,10 +1,12 @@
-[git conflict 해결방법](#-1.-git-conflict-해결방법)
+목차
 
-[github folder rename 방법](#-2.-github-folder-rename-방법)\
+1. [git conflict 해결방법](#-1.-git-conflict-해결방법)
 
-[github 사진 첨부 방법](#-3.-github-사진-첨부-방법)
+2. [github folder rename 방법](#-2.-github-folder-rename-방법)
 
-[git rebase](#-4.-git-rebase)
+3. [github 사진 첨부 방법](#-3.-github-사진-첨부-방법)
+
+4. [git rebase](#-4.-git-rebase)
 
 ---
 
