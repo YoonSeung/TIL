@@ -83,4 +83,11 @@ customer A
 
 를 하면 된다.
 
+---
+
+# 4. git rebase 
+
+git rebase를 쓰는 이유는 github의 전략 중 하나인데 
+
+기존의 경우 브랜치를 나눠 각자 기능을 구현 후 pr을 날리고 머지를 하면 merge commit 기록이 남는다. 그런데 이 merge commit 기록을 남기지 않고 머지를 시킬 수 있는 방법이 rebase 이다.
 
