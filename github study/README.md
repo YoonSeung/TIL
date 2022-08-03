@@ -1,4 +1,4 @@
-목차
+# 목차
 
 1. [git conflict 해결방법](#-1.-git-conflict-해결방법)
 
@@ -11,6 +11,7 @@
 ---
 
 # 1. git conflict 해결방법 
+
 eclipse 로 프로젝트 진행 한 다음 git에 push후 pr을 날릴 경우 기존의 레파지토리에 저장되어있던 파일과 현재 내가 push 날리려는 파일간의 conflict가 날 수 있다.
 
 이럴경우 보통은 <b>pr 날리는 곳에서 resolve conflicts 버튼을 눌러 파일 내용을 수정을 해서 다시 pr을 보내면 된다.</b> 하지만 <b>resolve conflicts 가 비활성화</b> 되는 경우가 있다.
