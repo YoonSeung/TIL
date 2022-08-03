@@ -1,4 +1,4 @@
-[git conflict 해결방법](# 1. git conflict 해결방법)
+[git conflict 해결방법](#-1.-git-conflict-해결방법)
 
 ---
 
