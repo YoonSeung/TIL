@@ -10,7 +10,7 @@
 
 ---
 
-# 1. git conflict 해결방법 
+## 1. git conflict 해결방법 
 
 eclipse 로 프로젝트 진행 한 다음 git에 push후 pr을 날릴 경우 기존의 레파지토리에 저장되어있던 파일과 현재 내가 push 날리려는 파일간의 conflict가 날 수 있다.
 
@@ -32,7 +32,7 @@ eclipse 로 프로젝트 진행 한 다음 git에 push후 pr을 날릴 경우 �
 
 -------------
 
-# 2. github folder rename 방법
+## 2. github folder rename 방법
 
 레파지토리에서 폴더를 이용해 파일들을 관리할 경우에 폴더의 이름을 수정해야하는 상황이 필요할때가 있다.
 
@@ -64,7 +64,7 @@ git mv 기존폴더명 바꿀폴더명
 
 ---
 
-# 3. github 사진 첨부 방법
+## 3. github 사진 첨부 방법
 사진을 첨부하는 방법이 구글링을 통해 찾아서 해보았는데 크게 2가지였다.
 
 1.issue를 활용하는 방법 
@@ -98,7 +98,7 @@ customer A
 
 ---
 
-# 4. [git rebase](#4.-git-rebase) 
+## 4. git rebase
 
 git rebase를 쓰는 이유는 github의 전략 중 하나인데 
 
