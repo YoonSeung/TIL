@@ -104,3 +104,48 @@ git rebase를 쓰는 이유는 github의 전략 중 하나인데
 
 기존의 경우 브랜치를 나눠 각자 기능을 구현 후 pr을 날리고 머지를 하면 merge commit 기록이 남는다. 그런데 이 merge commit 기록을 남기지 않고 머지를 시킬 수 있는 방법이 rebase 이다.
 
+우선 실습은 나와 친구 총 2명이서 진행하였다. <br>
+상황은 A와 B가 같은 브랜치에서 작업을 하고 있을 경우를 상황으로 진행하였다. <br>
+또한 A와 B는 서로 merge commit은 남기지 않기로 결정하였다. 
+
+실습 1<br>
+![rebase1.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase1.PNG?raw=true)
+
+사진의 상황은 다음과 같다.
+
+1. A가 yoon222.txt 파일을 생성해서 작업을 했다.
+2. 그리고 add와 commit까지 날렸다.
+3. 하지만 아직 push 하지 않고 다음날이 되었다.
+
+실습 2<br>
+![rebase2.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase2.PNG?raw=true)
+
+1. A는 다음날이 되어서 어제 commit한 내용을 push 하려한다.
+2. 하지만 B라는 인원이 어제 먼저 add -> commit -> push 까지 마친 상태였다.
+3. 그래서 reject가 난 상황이다.
+4. 사진속에선 fetch를 먼저 하라고 알려주는 상황이다.
+
+실습 3<br>
+![rebase3.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase3.PNG?raw=true)
+
+1. A가 fetch 후 확인해보니 B가 push 한 file이 있어 A가 pull을 받으려 할때 
+2. 이 때 rebase를 활용하여 commit 기록을 남기지 않기로 한다. ( 위 사진 처음 코드 )
+~~~
+git pull --rebase
+~~~
+이렇게 코드를 치면 pull은 받아지고 commit 기록은 남지 않는다.
+
+3. 그리고 나서 A가 수정 후 push를 날린다.
+
+실습 4<br>
+![rebase4.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase4.PNG?raw=true)
+- ps
+~~~
+git log --oneline --graph
+~~~
+
+를 치면 위 사진과 같이 head 로 지정된 브랜치별로 commit 기록과 함께 시각적으로 표현 가능하다.
+
+사진을 보면 A는 분명 pull을 받았고 merge를 했지만 아래 oo678ed 와 같은 merge commit 기록이 남지 않았다.
+
+이렇게 사용할때 쓰는 것이 rebase 이다.
