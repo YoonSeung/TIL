@@ -98,7 +98,7 @@ customer A
 
 ---
 
-# 4. git rebase 
+# 4. [git rebase](#4.-git-rebase) 
 
 git rebase를 쓰는 이유는 github의 전략 중 하나인데 
 
