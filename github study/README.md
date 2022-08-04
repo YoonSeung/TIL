@@ -146,6 +146,6 @@ git log --oneline --graph
 
 를 치면 위 사진과 같이 head 로 지정된 브랜치별로 commit 기록과 함께 시각적으로 표현 가능하다.
 
-사진을 보면 A는 분명 pull을 받았고 merge를 했지만 아래 oo678ed 와 같은 merge commit 기록이 남지 않았다.
+사진을 보면 A는 분명 pull을 받았고 merge를 했지만 아래 <b>oo678ed</b> 와 같은 merge commit 기록이 남지 않았다.
 
 이렇게 사용할때 쓰는 것이 rebase 이다.
