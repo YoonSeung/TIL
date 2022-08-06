@@ -108,7 +108,7 @@ git rebase를 쓰는 이유는 github의 전략 중 하나인데
 상황은 A와 B가 같은 브랜치에서 작업을 하고 있을 경우를 상황으로 진행하였다. <br>
 또한 A와 B는 서로 merge commit은 남기지 않기로 결정하였다. 
 
-실습 1<br>
+<b>실습 1</b><br>
 ![rebase1.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase1.PNG?raw=true)
 
 사진의 상황은 다음과 같다.
@@ -117,7 +117,7 @@ git rebase를 쓰는 이유는 github의 전략 중 하나인데
 2. 그리고 add와 commit까지 날렸다.
 3. 하지만 아직 push 하지 않고 다음날이 되었다.
 
-실습 2<br>
+<b>실습 2</b><br>
 ![rebase2.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase2.PNG?raw=true)
 
 1. A는 다음날이 되어서 어제 commit한 내용을 push 하려한다.
@@ -125,7 +125,7 @@ git rebase를 쓰는 이유는 github의 전략 중 하나인데
 3. 그래서 reject가 난 상황이다.
 4. 사진속에선 fetch를 먼저 하라고 알려주는 상황이다.
 
-실습 3<br>
+<b>실습 3</b><br>
 ![rebase3.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase3.PNG?raw=true)
 
 1. A가 fetch 후 확인해보니 B가 push 한 file이 있어 A가 pull을 받으려 할때 
@@ -137,7 +137,7 @@ git pull --rebase
 
 3. 그리고 나서 A가 수정 후 push를 날린다.
 
-실습 4<br>
+<b>실습 4</b><br>
 ![rebase4.PNG](https://github.com/YoonSeung/TIL/blob/master/github%20study/png/rebase4.PNG?raw=true)
 - ps
 ~~~
@@ -149,3 +149,7 @@ git log --oneline --graph
 사진을 보면 A는 분명 pull을 받았고 merge를 했지만 아래 <b>oo678ed</b> 와 같은 merge commit 기록이 남지 않았다.
 
 이렇게 사용할때 쓰는 것이 rebase 이다.
+
+---
+
+
